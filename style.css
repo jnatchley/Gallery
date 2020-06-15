@@ -1,0 +1,29 @@
+/* ================================= 
+  Page Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 1.35em;
+	font-family: 'Gill Sans', sans-serif;
+	color: #8ba7c4;
+	background: #8ba7c4;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container {
+	padding: 10px;
+	background: #bdc7de;
+    border-radius: 5px;
+	margin: 45px auto;
+    box-shadow: 10px 10px 0 0 #7d7aa2;
+}
+.button {
+	color: #3e7a93;
+	padding: 15px;
+	margin: 5px;	
+	background: #d7b0c2;
+	border-radius: 50px;
+}
