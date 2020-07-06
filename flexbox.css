@@ -2,3 +2,16 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.button {
+    flex: 1 200px;
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%
+    flex: 1;
+
+}

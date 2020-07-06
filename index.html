@@ -1,22 +1,56 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+
+<!--Navigation bar-->
+    <header role="banner">
         <title>The Artwork of Jessica Atchley</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="flexbox.css">
-    </head>
+        <script src="javascript.js">
+        </script>
+        <nav role="navigation">
+            <div class="container">
+                <button class="button">Home</button>
+                <button class="button">Contact</button>
+                <button class="button">FAQ</button>
+                <button class="button">Gallery</button>
+                <button class="button">Shop</button>
+                <button class="button">News</button>
+            </div>
+         </nav>
+    </header>
+<!--Columns-->
     <body>
-<div class="container">
-    <div class="button">Home</div>
-    <div class="button">Contact</div>
-    <div class="button">FAQ</div>
-    <div class="button">Gallery</div>
-    <div class="button">Shop</div>
-    <div class="button">News</div>
+    
+                <img src="https://picsum.photos/200" id="main-pic">
+       
+           
+
+<div class="columns">
+    <div class="column1">
+        <img src="https://picsum.photos/200" alt="Random Picture">
+        <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+    </div>
+    <div class="column2">
+        <img src="https://picsum.photos/200" alt="Random Picture">
+        <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+    </div>
 </div>
-
-
-        <img src="https://picsum.photos/200" alt="Random Picture">
-        <img src="https://picsum.photos/200" alt="Random Picture">
     </body>
+<footer role="contentinfo">
+    <div id="subscription">
+		<form class="Newsletter sign-up">
+	  	<h1>Newsletter Sign-Up</h1>
+
+		  <label for="name">Name:</label> 
+		  <input type="text" id="name">
+
+     	<label for="email">Email:</label>
+     	<input type="email" id="email" placeholder="email@website.com">
+			
+		  <input class="btn default" type="submit" value="Submit">
+		</form>
+	</div>
+
+</footer>
 </html>

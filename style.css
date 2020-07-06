@@ -1,17 +1,23 @@
-/* ================================= 
+/* 
   Page Styles
-==================================== */
+ */
 
 * {
 	box-sizing: border-box;
 }
-body {
-	font-size: 1.35em;
-	font-family: 'Gill Sans', sans-serif;
+header {
 	color: #8ba7c4;
+	background: #8ba7c4;
+}
+
+body {
+	font-size: 2em;
+	font-family: 'Gill Sans', sans-serif;
+	color: #000000;
 	background: #8ba7c4;
 	padding-left: 5%;
 	padding-right: 5%;
+
 }
 .container {
 	padding: 10px;
@@ -21,9 +27,53 @@ body {
     box-shadow: 10px 10px 0 0 #7d7aa2;
 }
 .button {
+    text-align: center;
+    font-weight: bold;
 	color: #3e7a93;
 	padding: 15px;
 	margin: 5px;	
 	background: #d7b0c2;
 	border-radius: 50px;
+}
+
+.columns {
+	font-family: 'Gill Sans', sans-serif;
+	color: #000000;
+    background: #ffffff;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.column1 {
+	font-size: 12px;
+	background: #6a89ce;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+  
+
+}
+
+.column2 {
+	font-size: 12px;
+	background: #40778d;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+
+
+}
+
+.subscription {
+	font-family: 'Gill Sans', sans-serif;
+	color: #000000;
+
+}
+
+input:focus,
+textarea:focus {
+	border-color: #52bab3;
 }
