@@ -134,6 +134,31 @@ body {
     center center/cover;
 }
 
+
+    /*footer*/
+
+ 
+	.ftr-grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        max-width: 80%;
+        margin: auto;
+
+    }
+   
+    .copyright {
+        max-width: 80%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    .span-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    }
+
 /* }
 .container {
 	padding: 10px;
