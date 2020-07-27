@@ -11,8 +11,6 @@
 .columns {
     display: flex;
     flex-direction: row;
-    flex-basis: 100%
-    flex: 1;
-
+    flex-basis: auto;
 }
 
