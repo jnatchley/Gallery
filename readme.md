@@ -7,10 +7,13 @@ Features included in this project according to the requirements:
 
 2. Use Flexbox or CSS Grid to rearrange 2 or more content areas on your page as the screen changes sizes
 
-3. Create a form that takes in at least two fields of information and validates input (for example, it checks to ensure email is the a@b.com format)
+3. Use Media queries to switch from a one-column mobile layout to a two or more column desktop layout
 
-4. Create an image carousel with at least 3 images that it rotates through
+4. Create a form that takes in at least two fields of information and validates input (for example, it checks to ensure email is the a@b.com format)
+
+5. Create an image carousel with at least 3 images that it rotates through
 --> This was following a tutorial found at: https://www.youtube.com/watch?v=wWWNrANNO1k 
+
 
 
 *No special instructions are needed to run this project. 

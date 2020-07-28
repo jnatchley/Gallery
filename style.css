@@ -134,49 +134,35 @@ body {
 
 /*body CSS*/
 
-li {
+
+
+li a {
 	list-style-type: none;
-	float: left;
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-    /* text-align: center;
 	font-weight: bold;
-	display: block;
-	color: #3e7a93;
-	padding: 15px;
-	margin: 5px;	
-	background: lightgray;
-	border-radius: 50px;
-} */
-
-
+	font-size: 25px;
 
 }
-.container {
-	/* list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333; */
-	/* padding: 10px;
-	background: #bdc7de;
-    border-radius: 5px;
-	margin: 45px auto; */
-  
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
+p {
+	font-family: 'Roboto', sans-serif;
+
+}
 
 .columns {
 	font-family: 'Gill Sans', sans-serif;
 	color: #000000;
     background: #ffffff;
-	/* padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%; */
+
 }
 
 .column1 {
@@ -219,14 +205,13 @@ textarea:focus {
 	
   }
 
-/* .ftr-grid {
+  .ftr-grid {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	max-width: 80%;
 	margin: auto;
 
-
-} */
+}
 
 .copyright {
 	max-width: 80%;
@@ -239,4 +224,7 @@ textarea:focus {
 	justify-content: space-between;
 }
 
-    
+.sitemap-links {
+	padding-left: 0;
+	list-style: none;
+}
