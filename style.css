@@ -134,10 +134,12 @@ body {
 
 /*body CSS*/
 
+li {
+	list-style-type: none;
 
+}
 
 li a {
-	list-style-type: none;
 	display: block;
 	color: white;
 	text-align: center;
@@ -161,20 +163,21 @@ p {
 .columns {
 	font-family: 'Gill Sans', sans-serif;
 	color: #000000;
-    background: #ffffff;
+	background: #ffffff;
+	margin: auto;
 
 }
 
 .column1 {
 	font-size: 16px;
-	margin: auto;
+	margin: 15px;
 	flex-wrap: wrap;
 
 }
 
 .column2 {
 	font-size: 16px;
-	margin: auto;
+	margin: 15px;
 	flex-wrap: wrap;
 
 }
@@ -192,6 +195,11 @@ textarea:focus {
 
 
 /*footer*/
+
+ /* {
+	color: lightblue;
+
+} */
 
 .footer-container {
     background-color: black;
@@ -213,7 +221,7 @@ textarea:focus {
 
 }
 
-.copyright {
+.copyright a:visited {
 	max-width: 80%;
 	margin: auto;
 	color: #fff;
