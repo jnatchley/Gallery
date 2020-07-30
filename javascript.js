@@ -1,3 +1,5 @@
+//Javascript for slideshow
+
 const slides = document.querySelectorAll('.slide');
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
@@ -53,5 +55,4 @@ prev.addEventListener('click', e => {
     slideInterval = setInterval(nextSlide, intervalTime);
   }
 });
-
 

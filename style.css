@@ -175,6 +175,13 @@ p {
 
 }
 
+.column3 {
+	font-size: 16px;
+	margin: 15px;
+	flex-wrap: wrap;
+
+}
+
 .column2 {
 	font-size: 16px;
 	margin: 15px;
@@ -196,10 +203,6 @@ textarea:focus {
 
 /*footer*/
 
- /* {
-	color: lightblue;
-
-} */
 
 .footer-container {
     background-color: black;
